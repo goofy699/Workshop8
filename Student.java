@@ -34,7 +34,7 @@ public class Student {
 
     // Method to display student information
     public void displayStudentInfo() {
-        System.out.println("Student Name: " + name);
+        System.out.println("Student Names: " + name);
         System.out.println("Age: " + age);
         System.out.print("Grades: ");
         for (double grade : grades) {
